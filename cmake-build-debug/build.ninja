@@ -65,6 +65,14 @@ build CMakeFiles/FPS.dir/src/main.cpp.obj: CXX_COMPILER__FPS_Debug C$:/Users/eli
   OBJECT_DIR = CMakeFiles\FPS.dir
   OBJECT_FILE_DIR = CMakeFiles\FPS.dir\src
 
+build CMakeFiles/FPS.dir/src/Player.cpp.obj: CXX_COMPILER__FPS_Debug C$:/Users/elias/Documents/C++/CLionProjects/FPS/src/Player.cpp || cmake_object_order_depends_target_FPS
+  DEFINES = -DASSETS_PATH=\"C:/Users/elias/Documents/C++/CLionProjects/FPS/assets/\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\FPS.dir\src\Player.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -IC:/Users/elias/Documents/C++/CLionProjects/FPS/cmake-build-debug/_deps/raylib-src/src -IC:/Users/elias/Documents/C++/CLionProjects/FPS/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\FPS.dir
+  OBJECT_FILE_DIR = CMakeFiles\FPS.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FPS
@@ -73,7 +81,7 @@ build CMakeFiles/FPS.dir/src/main.cpp.obj: CXX_COMPILER__FPS_Debug C$:/Users/eli
 #############################################
 # Link the executable FPS.exe
 
-build FPS.exe: CXX_EXECUTABLE_LINKER__FPS_Debug CMakeFiles/FPS.dir/src/rlFP/rlFPCamera.cpp.obj CMakeFiles/FPS.dir/src/main.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
+build FPS.exe: CXX_EXECUTABLE_LINKER__FPS_Debug CMakeFiles/FPS.dir/src/rlFP/rlFPCamera.cpp.obj CMakeFiles/FPS.dir/src/main.cpp.obj CMakeFiles/FPS.dir/src/Player.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  _deps/raylib-build/raylib/external/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FPS.dir

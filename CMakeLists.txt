@@ -24,7 +24,7 @@ endif()
 
 # Our Project
 
-add_executable(${PROJECT_NAME} src/rlFP/rlFPCamera.h src/rlFP/rlFPCamera.cpp src/main.cpp)
+add_executable(${PROJECT_NAME} src/rlFP/rlFPCamera.h src/rlFP/rlFPCamera.cpp src/main.cpp src/Player.cpp src/Player.h)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
 

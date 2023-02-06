@@ -1,9 +1,9 @@
 # ninja log v5
 1	633	6966857355055901	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj	44bd4982cb2dea4f
-2	837	6966938828741352	build.ninja	d2952860dc241c7a
+2	837	6970262276946679	build.ninja	d2952860dc241c7a
 43	2371	6966857372500813	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj	f89cf6c69afb90df
 2738	4674	6966857395596648	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	2263f35aab0de532
-10	311	6966938640372083	CMakeFiles/FPS.dir/src/main.cpp.obj	fae593135ddfc098
+5	701	6970358035046826	CMakeFiles/FPS.dir/src/main.cpp.obj	fae593135ddfc098
 26	340	6966857352283927	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj	e4c2c9a5c43a7d1
 341	1258	6966857361356125	CMakeFiles/FPS.dir/src/rlFP/rlFPCamera.cpp.obj	eee4382a20c0f046
 6520	8718	6966857435873843	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	4d8290f035429077
@@ -18,6 +18,7 @@
 3322	5197	6966857400815467	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	46c07fe4374a5dd1
 4674	6425	6966857413079405	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	e907e1de6a3584c3
 4484	6519	6966857413591468	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	2f63b82cb7133ca
+10	912	6970279163100004	CMakeFiles/FPS.dir/src/Player.cpp.obj	c535989b3c1eaeee
 4345	6583	6966857414429374	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj	ef099a14865d4465
 6843	9015	6966857439016900	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	f8393b98dfa4f4db
 5147	6843	6966857417252326	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	5d06ee928215ede2
@@ -27,4 +28,6 @@
 6425	8819	6966857437051807	_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	c04cbcf5cfa2974f
 9016	9299	6966857441805808	_deps/raylib-build/raylib/external/glfw/src/libglfw3.a	e3915a2503f5e55d
 11889	12182	6966857470484912	_deps/raylib-build/raylib/libraylib.a	de9a50532b29ff4c
-311	559	6966938642784130	FPS.exe	a9e551dde0444169
+702	968	6970358037636673	FPS.exe	5d17984b4516454b
+6	743	6970358462009312	CMakeFiles/FPS.dir/src/main.cpp.obj	fae593135ddfc098
+744	1037	6970358464920912	FPS.exe	5d17984b4516454b
